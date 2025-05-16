@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Personalizzazione della variante dark per funzionare con le classi invece che con prefers-color-scheme */
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+

@@ -1,0 +1,12 @@
+Vantaggi
+
+Elimina il Prop Drilling: Accesso diretto ai dati da qualsiasi componente
+Separazione delle Responsabilità: Isolamento della logica di stato
+Testabilità: I provider possono essere facilmente mockati nei test
+Modularità: I context possono essere organizzati per dominio
+
+Considerazioni
+
+Performance: La sovrautilizzazione del Context può portare a re-render non necessari
+Granularità: È preferibile creare context separati per domini distinti
+Complessità: Per applicazioni molto complesse, librerie dedicate come Redux o MobX potrebbero offrire vantaggi aggiuntivi
