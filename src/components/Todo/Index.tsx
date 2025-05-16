@@ -24,8 +24,6 @@ const Todo = () => {
                     <Todo.Form/>
                 </div>
                 <Todo.List renderItem={ (todo)=>(<Todo.Item todo={todo} key={todo.id} />) } />
-                <Todo.List renderItem={ (todo)=>(<li key={todo.id}>{todo.text}</li>) } />
-
             </div>
 
             <p className="text-center text-sm text-gray-500 dark:text-gray-400">

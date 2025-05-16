@@ -1,7 +1,6 @@
 import {TodoCtx} from "../store/TodoProvider";
 import {useContext} from "react";
 
-
 export const useTodo = () => {
     const context = useContext(TodoCtx);
     if (!context) {
